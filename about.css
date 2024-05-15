@@ -14,21 +14,12 @@ body {
 
 /* Navigation styling */
 .nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color:orange;
-  padding: 10px;
-}
-
-
-.nav  {
-  display: flex;
-  flex-direction: row;
+   display: flex;
+  flex-direction: column;
   position: absolute;
   width: 100vw;
   height: 100vh;
-  background-color: black;
+  background-color: orange;
   left: 0;
   top: 0;
   z-index: 11;
@@ -36,6 +27,9 @@ body {
   justify-content: center;
   opacity: 1;
 }
+
+
+
 .close {
   z-index: 34;
 
