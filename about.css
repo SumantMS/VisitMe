@@ -16,13 +16,13 @@ body {
 .nav {
    display: flex;
   flex-direction: column;
-  position: relative;
+  position: absolute;
   width: 100vw;
   height: 10vh;
-  background-color:#FFA500;
   left: 0;
+  top=0;
   z-index: 11;
- 
+  background-color:orange;
   opacity: 1;
 }
 
@@ -42,7 +42,6 @@ body {
   border-top: 3px solid white;
   width: 8%;
   text-align: center;
-
   padding-top: 10px;
 }
 .nav-link a {
