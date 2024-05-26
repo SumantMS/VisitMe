@@ -25,6 +25,7 @@ body {
   background-color:orange;
   opacity: 1;
   gap :5px;
+  flex-basis:200px;
   
 }
 
